@@ -10,13 +10,13 @@ window.SITE = {
   "address": "",
   "photo": "photo.jpg",
   "playground": true,
-  "linkedin": "",
+  "linkedin": "www.linkedin.com/in/ifham-mukhtar-175a531b0",
   "github": "",
   "resume": "",
   "formKey": "",
   "about": [
-    "I'm Ifham, an M.Sc. Information Technology student at the Islamic University of Science and Technology, based in Anantnag, Kashmir.",
-    "I completed my B.Sc. in Information Technology in 2025 and I'm now building practical projects alongside my master's. Replace this text with your own story."
+    "I'm Ifham, an M.Sc. Information Technology student at the Islamic University of Science and Technology, based in Kashmir.",
+    "I completed my B.Sc. in Information Technology in 2025 and I'm now building practical projects alongside my master's."
   ],
   "stats": [
     {
@@ -62,30 +62,12 @@ window.SITE = {
   "projects": [
     {
       "title": "Project one",
-      "desc": "Describe the problem, what you built, and the result.",
+      "desc": "High-Altitude Offline Threat Detection System\nConceptualized and designed a specialized, completely offline device to protect shepherds in remote mountainous regions. The system operates without internet connectivity to detect wild animal threats (like bears) in real-time, specifically engineered to function reliably during harsh, off-grid winter conditions.",
       "tags": [
         "Python",
-        "SQL"
-      ],
-      "link": "",
-      "repo": ""
-    },
-    {
-      "title": "Project two",
-      "desc": "Add what your role was and which tools you used.",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "link": "",
-      "repo": ""
-    },
-    {
-      "title": "Thesis / research",
-      "desc": "Add your master's research topic here once it's decided.",
-      "tags": [
-        "Research"
+        "SQL",
+        "IoT",
+        "GIS"
       ],
       "link": "",
       "repo": ""

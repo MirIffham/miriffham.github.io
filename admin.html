@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src blob: data:; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Admin</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<main id="login" class="box">
+  <h1>Portfolio admin</h1>
+  <p>Sign in with a GitHub access token. Only the token holder can publish changes. The token stays in this tab only and is cleared when you close it.</p>
+  <form id="loginForm" autocomplete="off">
+    <label><span>GitHub username</span><input name="u" required></label>
+    <label><span>Repository name</span><input name="r" required></label>
+    <label><span>Branch</span><input name="b" value="main"></label>
+    <label><span>Access token</span><input name="t" type="password" required autocomplete="off"></label>
+    <button class="p">Sign in</button><p id="loginMsg" role="alert"></p>
+  </form>
+</main>
+<div id="app" hidden>
+  <header><b>Portfolio admin</b><span id="status" role="status"></span>
+    <div><button id="bak" type="button">Backup</button><button id="pub" class="p" type="button">Publish</button><button id="out" type="button">Sign out</button></div></header>
+  <div id="form"></div>
+</div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{margin:0;background:#0E1A16;color:#EAF0EB;font:16px/1.5 system-ui,sans-serif}
+.box{max-width:420px;margin:12vh auto;padding:1.5rem}.box p{color:#9BAFA5}
+h1,h2{margin:0 0 .8rem}h2{font-size:1.25rem}
+label{display:grid;gap:.3rem;margin-bottom:.8rem}label span{color:#9BAFA5;font-size:.9rem}
+input,textarea{width:100%;font:inherit;color:inherit;background:#15251F;border:1px solid #25382F;border-radius:10px;padding:.65rem .8rem}
+input:focus,textarea:focus{outline:2px solid #E8892B;border-color:transparent}
+input[type=color]{height:2.6rem;padding:.2rem}
+.chk{display:flex;align-items:center;gap:.6rem}.chk input{width:auto}.chk span{order:2}
+button{font:600 .95rem system-ui;color:inherit;background:#15251F;border:1px solid #25382F;border-radius:999px;padding:.55rem 1.1rem;cursor:pointer;min-height:40px}
+button:hover{border-color:#E8892B}button.p{background:#E8892B;border-color:#E8892B;color:#1a1206}button.danger{color:#ff8a8a}
+header{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;justify-content:space-between;padding:.8rem clamp(1rem,4vw,2rem);background:#0E1A16ee;border-bottom:1px solid #25382F;backdrop-filter:blur(8px)}
+header div{display:flex;gap:.5rem}#status,#loginMsg{color:#E8892B;flex:1;min-height:1.4em}
+#form{max-width:860px;margin:auto;padding:1.2rem clamp(1rem,4vw,2rem) 4rem;display:grid;gap:1.2rem}
+.panel{background:#121f1a;border:1px solid #25382F;border-radius:14px;padding:1.2rem}
+.item{border:1px solid #25382F;border-radius:12px;padding:1rem;margin-bottom:1rem}
+.row{display:flex;gap:.5rem;flex-wrap:wrap}

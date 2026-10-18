@@ -39,7 +39,10 @@ window.SITE = {
       "items": [
         "Python",
         "JavaScript",
-        "SQL"
+        "SQL",
+        "Java",
+        "C",
+        "C++"
       ]
     },
     {

@@ -61,8 +61,8 @@ window.SITE = {
   ],
   "projects": [
     {
-      "title": "Project one",
-      "desc": "High-Altitude Offline Threat Detection System\nConceptualized and designed a specialized, completely offline device to protect shepherds in remote mountainous regions. The system operates without internet connectivity to detect wild animal threats (like bears) in real-time, specifically engineered to function reliably during harsh, off-grid winter conditions.",
+      "title": "High-Altitude Offline Threat Detection System",
+      "desc": "Conceptualized and designed a specialized, completely offline device to protect shepherds in remote mountainous regions. The system operates without internet connectivity to detect wild animal threats (like bears) in real-time, specifically engineered to function reliably during harsh, off-grid winter conditions.",
       "tags": [
         "Python",
         "SQL",
